@@ -11,7 +11,7 @@ import (
 	"github.com/phrozen/go-data-processing/pkg/counter"
 )
 
-const BUFFER_SIZE = 1024 * 1024
+const BUFFER_SIZE = 1024 * 1024 // 1MB per buffer
 
 func OpenFile(filename string) *os.File {
 	log.Println("Opening file:", filename)
