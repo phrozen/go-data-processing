@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/phrozen/processor/pkg/counter"
+	"github.com/phrozen/go-data-processing/pkg/counter"
 )
 
 const BUFFER_SIZE = 64 * 1024 * 1024
